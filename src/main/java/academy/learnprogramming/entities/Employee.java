@@ -73,7 +73,7 @@ public class Employee extends AbstractEntity{
     private String socialSecurityNumber;
 
     @NotNull(message = "Date of birth must be set")
-    @Past(message = "Date of birth must be in the past")
+//    @Past(message = "Date of birth must be in the past")
     @JsonbDateFormat(value = "yyyy-MM-dd")
     private LocalDate dateOfBirth; //yyyy-MM-dd
 

@@ -301,3 +301,5 @@ $RECYCLE.BIN/
 nb-configuration.xml
 
 # End of https://www.gitignore.io/api/java,macos,linux,eclipse,windows,netbeans,java-web,intellij,intellij+all,intellij+iml
+/.apt_generated/
+/.apt_generated_tests/
